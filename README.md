@@ -47,5 +47,5 @@ There are a few different ways to encode a distinct card.
     - ex. `['r', 'd', 3, 's']`, `[0, 1, 3, 1]`, `[0, 1, 2, 1]` could all be the three-red-scored-diamonds card.
 - dummy variable version:
 | card id | is_green | is_violet | is_diamond | is_squingle | has_2 | has_3 | is_scored | is_full |
-| --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12 | 0 | 0 | 1 | 0 | 0 | 1 | 1 | 0 |
