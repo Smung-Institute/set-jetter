@@ -2,6 +2,7 @@ SET Jetter
 ---
 (pronounced "set getter")
 
+[Scikit Image](https://scikit-image.org/docs/stable/user_guide/getting_started.html)
 
 [Playing Card Detection Using OpenCV-Python on the Raspberry Pi 3 + PiCamera](https://youtu.be/m-QPjO-2IkA)
 
@@ -13,7 +14,7 @@ SET Jetter
 
 
 ## Scale
-Each card is unique in a deck of 81. A pair of cards determines a unique SET. There is only one third card in a deck that can make a SET with any two. There are `81*80 == 6480` possible SETs
+Each card is unique in a deck of 81. A pair of cards determines a unique SET. There is only one third card in a deck that can make a SET with any two. ~~There are `81*80 == 6480` possible SETs~~. This double-counts. Less. 3240? Not a lot is the point. A tabular solution is easy.
 
 ## Card encoding
 
